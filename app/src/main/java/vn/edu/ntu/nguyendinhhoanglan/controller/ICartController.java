@@ -5,5 +5,8 @@ import java.util.List;
 import vn.edu.ntu.nguyendinhhoanglan.model.Product;
 
 public interface ICartController {
-    public List<Product> getAllProducts();
+    List<Product> getAllProducts();
+    boolean addToCart(Product product);
+    List<Product> getShoppingCart();
+    void clearShoppingCart();
 }
