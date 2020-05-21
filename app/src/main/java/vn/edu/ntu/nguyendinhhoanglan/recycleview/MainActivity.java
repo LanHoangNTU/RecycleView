@@ -105,7 +105,7 @@ public class MainActivity extends AppCompatActivity {
     private class ProductAdapter extends RecyclerView.Adapter<ProductViewHolder>{
         List<Product> listProduct;
 
-        public ProductAdapter(List<Product> listProduct) {
+        private ProductAdapter(List<Product> listProduct) {
             this.listProduct = listProduct;
         }
 
